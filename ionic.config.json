@@ -4,5 +4,10 @@
     "cordova": {}
   },
   "type": "ionic-angular",
-  "pro_id": "a14724cd"
-}
+  "pro_id": "a14724cd",
+    "proxies": [{
+        "path": "/rss",
+        "proxyUrl": "http://www.usccb.org/bible/readings"
+    }]
+
+  }
