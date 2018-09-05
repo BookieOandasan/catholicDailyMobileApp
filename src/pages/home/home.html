@@ -13,6 +13,11 @@
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
   </p>
+  <!-- <p ng-bind-html="<label>Hello </label>"></p> -->
+  <div ng-bind-html="dailyReading"></div>
+  <p [innerHTML]="dailyReading"></p>
+
+  
 
   <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content>
